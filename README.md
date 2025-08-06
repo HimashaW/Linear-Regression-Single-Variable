@@ -1,5 +1,5 @@
-# Linear-Regression-Single-Variable
-
+# Linear-Regression
+## Single-Variable
 ## Overview
 
 Linear Regression is a fundamental statistical method used to model the relationship between a dependent variable \( y \) and a single independent variable \( x \). It fits a straight line (called the regression line) to the given data points.
