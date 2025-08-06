@@ -38,7 +38,7 @@ Where:
 
 ---
 
-## 🧮 Manual Calculations
+### Manual Calculations
 
 Given:
 - ∑x = 30 + 40 + 50 + 60 + 70 = 250  
@@ -50,7 +50,7 @@ Given:
 
 ---
 
-### 📐 Slope (m)
+### Slope (m)
 
 m = [5 × 11,963,000 - 250 × 227,800] / [5 × 13,500 - 250²]  
 = [59,815,000 - 56,950,000] / [67,500 - 62,500]  
@@ -60,7 +60,7 @@ m = [5 × 11,963,000 - 250 × 227,800] / [5 × 13,500 - 250²]
 
 ---
 
-### 🧮 Intercept (c)
+### Intercept (c)
 
 c = (227,800 - 573.0 × 250) / 5  
 = (227,800 - 143,250) / 5  
@@ -95,6 +95,13 @@ Let's implement the simple **linear regression (single-variable)** using the dat
    </pre>
   
 <img width="569" height="413" alt="download" src="https://github.com/user-attachments/assets/d778a9fd-360e-43cd-af3e-f95a47c8c5f2" />
+
+Predict the number of views when the number of videos is 45
+
+<pre lang="markdown"> 
+  y_new=m*45+c
+  y_new
+   </pre>
 
 ---
 
