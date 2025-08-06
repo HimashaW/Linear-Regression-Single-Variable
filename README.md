@@ -6,16 +6,16 @@ Linear Regression is a fundamental statistical method used to model the relation
 
 The general form of the equation is:
 
-\[
+\
 y = mx + c
-\]
+
 
 Where:
 
-- \( y \) = predicted value (dependent variable)  
-- \( x \) = input value (independent variable)  
-- \( m \) = gradient (slope)  
-- \( c \) = intercept  
+-  y  = predicted value (dependent variable)  
+-  x  = input value (independent variable)  
+-  m  = gradient (slope)  
+-  c  = intercept  
 
 ---
 
@@ -81,10 +81,10 @@ Let's implement the simple **linear regression (single-variable)** using the dat
   
 <img width="569" height="413" alt="download" src="https://github.com/user-attachments/assets/d778a9fd-360e-43cd-af3e-f95a47c8c5f2" />
 
-Predict the number of views when the number of videos is 45
+Predict the number of views when the number of videos is 42
 
 <pre lang="markdown"> 
-  y_new=m*45+c
+  y_new=m*42+c
   y_new
    </pre>
 
@@ -102,7 +102,7 @@ Predict the number of views when the number of videos is 45
   y=np.array(data.views.values)
   model =LinearRegression()
   model.fit(x.reshape((-1,1)),y)
-  new_x=np.array([45]).reshape((-1,1))
+  new_x=np.array([42]).reshape((-1,1))
   pred=model.predict(new_x)
   pred
    </pre>
