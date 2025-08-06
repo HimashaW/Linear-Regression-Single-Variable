@@ -6,7 +6,7 @@ Linear Regression is a fundamental statistical method used to model the relation
 
 The general form of the equation is:
 
-\
+
 y = mx + c
 
 
